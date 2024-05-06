@@ -1,0 +1,13 @@
+prefix=/home/nanoz-admin/Desktop/projects/dvc git test/kikou
+exec_prefix=/home/nanoz-admin/Desktop/projects/dvc git test/kikou
+libdir=/home/nanoz-admin/Desktop/projects/dvc git test/kikou/lib
+sharedlibdir=/home/nanoz-admin/Desktop/projects/dvc git test/kikou/lib
+includedir=/home/nanoz-admin/Desktop/projects/dvc git test/kikou/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
